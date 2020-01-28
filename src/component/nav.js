@@ -1,23 +1,13 @@
 import React from "react";
 
-function nav(props){
-
-
-
-
-
+function nav(){
     return(
         <div className="nav">
-            <a href="#" className="navItem">Home</a>
-            <a href="#" className="navItem">About</a>
-            <a href="#" className="navItem">Products</a>
-            <a href="#" className="navItem">Services</a>
+            <a href="#" >Home</a>
+            <a href="#" >About</a>
+            <a href="#" >Products</a>
+            <a href="#" >Contact</a>
         </div>
-
-
-
-
-
     )
 
 }
